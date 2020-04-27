@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+
+int main(){
+	printf("500");
+	int max = 1000;
+	int i =0 ;
+	double sum = 0;
+
+	printf("Summary of: ");
+	while(i<=max){
+
+		if( i%2 == 0  ){
+			printf("%d,", i);
+			sum = sum+i;
+		}
+		i = i+1;
+
+	}
+	printf("\nAnswer is %.0lf\n", sum);
+	getch();
+
+
+}
