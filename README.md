@@ -1,1 +1,2 @@
-#C-Programming\nFaculty of ICT
+#C-Programming
+Faculty of ICT
